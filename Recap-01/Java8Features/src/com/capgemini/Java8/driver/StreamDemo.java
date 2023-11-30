@@ -2,7 +2,7 @@ package com.capgemini.Java8.driver;
 
 import java.util.ArrayList;
 
-public class StreamDEmo {
+public class StreamDemo {
 	public static void main(String[] args) {
 		
 		ArrayList<String> strList = new ArrayList<String>();
