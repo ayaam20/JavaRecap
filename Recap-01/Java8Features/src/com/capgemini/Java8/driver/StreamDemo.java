@@ -11,7 +11,7 @@ public class StreamDemo {
 		strList.add("C");
 		strList.add("D");
 		
-		strList.stream().filter(s -> s.startsWith("A")||s.startsWith("a")).forEach(s -> System.out.println(s));
+		strList.stream().filter(s -> s.startsWith("A")||s.startsWith("a")).collect(null);
 		
 	}
 }
