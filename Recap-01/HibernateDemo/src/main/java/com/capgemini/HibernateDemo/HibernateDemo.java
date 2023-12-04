@@ -23,7 +23,7 @@ public class HibernateDemo {
 		session.save(emp2);
 //		session.delete(emp2);
 		
-		List<Employee> empList = session.createQuery("from Employee").list();
+		List<Employee> empList = session.createQuery("from Employee").list(); 
 		System.out.println("Employee Details");
 		for(Employee emp:empList){
 			System.out.println(emp);
